@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="jquery-3.6.0.min.js"></script>
+    <script defer src="main.js"></script>
+    <!--defer = faz o JavaScript ser carregado no final-->
+    <title>JOGO DA COBRINHA  &#x1F40D</title>
+  </head>
+  <body>
+    <header>
+      <h2>JOGO DA COBRINHA</h2>
+      <button
+        type="button"
+        class="btn btn-outline-light btn-lg"
+        onclick="start()"
+      >
+        START
+      </button>
+    </header>
+    <canvas id="snake" width="512" height="512"></canvas>
+
+    <audio src="midia/vinhetadeabertura.mp3" controls autoplay></audio>
+  </body>
+
+  <footer>
+    Desenvolvido por: Joanna Neves Malta <br />
+    <a href="http://www.github.com/joannaneves" target="blank">Github</a>
+  </footer>
+</html>

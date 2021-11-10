@@ -1,0 +1,30 @@
+﻿body {
+  background-color: #afa409;
+  height: 95vh;
+  width: 95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'roboto';
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 20px;
+}
+
+.btn {
+  margin-left: 73px;
+  margin-bottom: 13px;
+}
